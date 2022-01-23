@@ -1,0 +1,52 @@
+
+
+##  vs code da live server kullanilmak istenmezse, 
+
+vs code dol tarafta bulunan debug butotuna tikla ok ve bocek olan.
+create launch.json file a tikla. cikan ekrani kapat.
+browser secmen istenecek.
+chrome sec
+sol uste play butonu ciakcak ona bas.
+vscode un alt ekraninda cikan debug consolue butonuna bas.
+acilan pencereden ciktilarini goreblirisn.
+yapilan yeni degisikleri gormek icin, yukarda ortada bulunan donen oktan refresh yapmak gerekiyor. her seferinde.
+
+
+## NAMING RULES ##
+
+
+shift alt a --> toplu olarak blogu konum yapmak icin kisayol
+
+reserved word leri namingte kullanma. calisir ama sorun cikablir. tavsiye edilmez.
+or: export
+EXPORT olarak kullanilablir ama tavsiye edilmez.
+
+
+## LET AND CONST ##
+cons ile atama yapildigina degistirilemez.
+
+let degistirebliir. bu nedenle eger bi degerin degisirecegimizi dusnuyorsak let ile yazariz.
+ama genelde default olarak cons kullanilir.
+
+suan da genelde let ve cons kullaniliyor. fakat var ilk oldugu icin ve js ilk surumlerinide desteledigiicin var in ne oldugunu bilmemizde fayda var.
+
+let , scope mantigi ile calisir.
+
+const , let e benzer . farki resigne edilemez.degistirelemz.
+
+const u bir degerin degstirilmesini istemedigimiz zaman kullaniyoruz.
+or: siteye giris hakki
+hiz limiti kamerasina 120 diye tnaimlanir. ilerde yasa degisir bise degisir const degeri yeniden tanimlanir.
+
+
+##   DATA TYPES ##
+
+numbers;
+js de float nteger ayrimi yoktur.
+
+strings:
+tirnaklar onemli,
+tirnka icinde yazilan her sey stringtir.
+
+boolean;
+mantiksal olarak dogru yanlis yapilaridir.
