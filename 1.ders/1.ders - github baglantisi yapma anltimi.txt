@@ -1,0 +1,85 @@
+## proje ve ders notlari icin github isimlendirme ornekleri,
+
+learn-html-css
+html-css-notes
+study-html-css
+study-js
+learn_react     react_notes
+
+tdo-app
+	playgraound  ( proje ile ilgili kod denemelerinin yapildigi bir repo olablir)
+		index.html
+		app.js
+		index.js
+
+##  mumkunolduguca ingilizce kullan
+
+
+
+## github sureci:
+1- from github page&clone
+git clone <repo.git>
+
+
+-new repository de repo olustur.
+	-add readme
+	-js (ve react) projesi icin gitignore :node
+
+
+-masaustune gel git5 i ac.
+ desktopta(veya nerde istiyorsak)klasorunu olusutr.
+
+-repo profiline gel.
+code ikonunundan
+shh veya https ile yapilir. shh tavsiye edilliyor. her seferinde sifre vs girmemek icin.
+(hoca shh ile yapti)
+shh i kopyala
+
+-olusturdugun(icinde calismalarini yapacagin) klasorun icine gel.
+git clone <shh i yapistir>   enter a bas.
+
+-yine gitbash te :
+code . -->enter dersen vs code u acar
+
+vscode ta olusturdugumuz dosyayi acar.burda calismalar yapip push edebliriz.
+
+
+
+
+2-from local&link to github
+git remote add origin <repo.git>
+
+
+-dosyayi olustur. 
+gitbash i ac. 
+o dasyaya git
+git init yazip takibi baslat.
+touch README.md olustur
+
+-code . enter
+readme dosyasinin icine gel
+(gitignore dosyasi eklemek icin, bir onceki projelerden alip kopyala yapisir yapablirlisin.
+yada extensoin ekleyip yapablirisn.gitignore eklentisni ekle.
+
+ctrl shift p ile none yaz cikana tikla.dosya eklnemis olur.
+
+-suanda localde olustu. sonrasinda githubta karsiligi yok olusmais icin. githubda yeni repo olustu.
+localde gitignore ve readme olustudugumuz icin repoyuy olustururken bir daha eklemeye gerek yok.
+
+olursutrduktan sonra ekranda cikan , 
+
+echo '.......' >>README.md
+Git init
+gir commit -m 'first commit'
+.
+.
+.
+
+yazili olan yerden git add readme ile baslayan yerden itibaren kopyala
+gitbashe yapistir
+
+
+
+3-inside visual studio code editor
+
+not:gitignore

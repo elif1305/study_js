@@ -1,0 +1,27 @@
+inclass notes
+
+https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841
+
+stack-heap farki
+
+https://medium.com/yigit-xcodeproj/stack-ve-heap-arasindaki-fark-nedir-stack-vs-heap-c61e3d463dd7
+
+
+https://medium.com/yigit-xcodeproj/stack-ve-heap-arasindaki-fark-nedir-stack-vs-heap-c61e3d463dd7
+
+
+javascrpti ile iligili bilgi almak icin:
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=tr
+
+increment ++ and decreement --
+
+https://www.programiz.com/article/increment-decrement-operator-difference-prefix-postfix
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Greater_than
+
+
+
+https://codesource.io/operator-short-circuiting-in-javascript/

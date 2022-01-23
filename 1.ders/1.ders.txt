@@ -1,0 +1,55 @@
+##   java ve javascript farklidir.
+
+##   html de head ve body kismina ikiside olur ,
+<script><script/> tagi icinde yazilir.
+tavsiye edilen body section in en sonuna eklenmesidir.
+
+##   harici js sayfasini html e nasil baglariz?
+
+head  section icine:
+<script src="xxx.jss"> tagi ile baglanir.
+
+
+##    js de yorum nasil olur?
+
+// this is a commend line
+
+##    js casesensitive dir.
+
+A != a
+
+##   tavsiye edilen satirlarin noktali virgul ile bitirilmesi (;) zorunlu degildir.
+
+##  ECMAScript 2015(ES6) nedir?
+
+European Computer Manufacturers Association(ECMA) 
+js kullanim standartlarinin belirlenmesini yapiyor.
+cervece belirler
+ornegin: a4 dendigi zaman her yerde ayni olculerin algilanamsi gibi.
+
+## 1995 js in ilk gelistirildigi yil.
+gelistiren kisi Brendan Eich
+ilk ismi Mocha sonra Livecsript.sonra javascript 
+
+
+## output:
+siyah ekranda console ekraninda calisacagiz.
+
+output alma komutlari;
+1-window.alert()
+2-document.write()
+3-console.log()
+
+browser >  diger araclar > gelistirici araclari >console
+
+yada
+
+f12
+
+yada
+
+ctrl shift i
+
+## f12 > console a gel
+
+sagdaki altalta olan 3 noktaya basip konumunu ayarlayabilrisin.
