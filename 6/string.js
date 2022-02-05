@@ -74,4 +74,94 @@ console.log(str.lastIndexOf('m')); // sondan başlar ilk bulduğu sonucu döndü
  */
 
 
+//replace
+
+//  var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+
+// console.log(s.replace('dummy', 'hello'));   // dummy i al hello yaz
+// var str = s.replace('dummy', 'hello')    
+// // console.log(s.replace('uuuuuu', 'hello'));   // icinde olmayan bise yaptigimizda hic bise degiistirmez.
+
+// console.log(s);  // orjinal stringi degistirmez/ degskene atanirsa degisir.
+// console.log(str); 
+
+//console.log(s.replace(/Dummy/i,'Hello')); //regex ile case sensitive kaldirilir ve degisiklik yapar.  /Dummy/i seklinde regex yazilisi
+
+//console.log(s.replace(/e/g, '--')); //regex tümünü değiştir. 
+
+//search
+
+// var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry. text";
+
+
+// console.log(s.indexOf('text'));  // ilk text i getiri, t nin baslagini indexi getirir
+// console.log(s.indexOf('text', 30)); // index numarasi 30dan sonrasina bak demek . indexof ta regex kullanilmiyor
+// console.log(s.search('Text')); //-1 dondurur casesensitive
+// console.log(s.search(/Text/i));  // regex ile casesensitivve ozellingi kaldirma
+
+
+// slice  // stringi istedigimiz araliklarda boluyor.
+
+// var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+
+// // console.log(s.slice(0,5));   // son rakam dahil edilmez/
+// // console.log(s.slice(6)); // tek rakam verilirse verilen yerden itibaren sonuna kadar alir.
+// console.log(s.slice(-31, -10));
+// console.log(s.slice(-31, 76)); // yazma yonu hep bastan sonadi, - index numarrasi verilsede soldan saga dogru dondurur.
+// console.log(s.slice(54, 76));
+// yanlis index verilrise bos dondurur.
+
+
+//split
+// verdigimiz araliga gore stringi aliyor ve array olarak donduruyor.
+
+// var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+
+// // console.log(s.split (' ')); // kelime kelime
+// console.log(s.split ('')); //harf harf
+// console.log(s.split ()); // komple tek array yapar
+
+
+//substr
+/* 
+var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+
+console.log(s.substr(22,10));  // index numarasi 22 den 10 taneisni yazdir
+console.log(s.substr(22));
+ */
+
+//substring
+
+// var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+
+// console.log(s.substring(22,33));   // slice dan farkli olarak negatif index kullanimiyor. 
+// console.log(s.substring(33,22)); // terste verilse solsan saga dondurur
+// console.log(s.substring(6,-202));  // verilen negatif sayi 0 olarak kabul eder
+
+// toLowercase touppercase
+
+/* var pangram = "pijamalı hasta yağız şoföre çabucak güvendi"
+
+// console.log(pangram.toUpperCase());
+// console.log(pangram.toLocaleUpperCase('tr-TR'));
+
+var Pangram = pangram.toLocaleUpperCase('tr-TR');
+
+console.log(Pangram.toLowerCase());
+console.log(Pangram.toLocaleLowerCase()); */
+
+// trim
+var s = "                 <-Welcome \t to Clarus\tway->                 "
+
+console.log(s);
+
+console.log(s.trim());
+console.log(s.trimLeft());
+console.log(s.trimRight());
+
+
+
+
+
+
 
