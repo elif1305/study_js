@@ -1,0 +1,1 @@
+##   eventler objenin kendisine atanir, attribute une ya da property sine atanmaz.

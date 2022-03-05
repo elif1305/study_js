@@ -1,4 +1,4 @@
-//                  Document Object Model(DOM)
+ //                  Document Object Model(DOM)
 // programing interface,dom ile html sayfalarına erişebiliyoruz,elementleri manipüle edebiliyrouz
 // dom ile html elementleri js nin objeleri haline geliyor
 /* DOM, web belgeleri için bir programlama arabirimidir. Programların belge yapısını, stilini ve içeriğini değiştirebilmesi için sayfayı temsil eder. DOM, belgeyi düğümler ve nesneler olarak temsil eder; bu şekilde, programlama dilleri sayfa ile etkileşime girebilir. */
